@@ -1,0 +1,7 @@
+<ol>
+{% for toc in page.toc %}
+
+    <li><a href="{{ toc.link }}">{{ toc.text }}</a></li>
+
+{% endfor %}
+</ol>

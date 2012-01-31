@@ -1,0 +1,63 @@
+---
+layout: post
+type: post
+published: true
+status: publish
+tags:
+- Analyse
+meta:
+  _edit_last: "2"
+title: "Modularité &amp; Modernité"
+---
+Maintenant que nous savons précisément le type de projet que nous réalisons, voyons où nous pouvons effectivement gagner du temps dans nos réalisations.
+<!--more-->
+
+<hr />
+
+<div id="toc" class="toc">
+<ol>
+	<li><a href="#toc1">Les modules</a></li>
+	<li><a href="#toc2">La modernité</a></li>
+	<li><a href="#toc3">Conclusion</a></li>
+</ol>
+</div>
+
+<hr />
+
+<div id="body" class="body">
+
+<a id="toc1" name="toc1"></a>
+<h2>Les modules</h2>
+Dans nos réalisations on retrouve souvent les même fonctionnalité « basiques » : envoyer un mail, générer un document PDF, gérer des formulaires, etc. Nous les avons regroupés sous le termes de modules et nous avons listés ceux pour lesquels ils est nécessaire de gagner du temps avec l'arrivé de Faros.
+<ul>
+	<li>Gestion de <strong>formulaire</strong></li>
+	<li>Gestion de <strong>date</strong></li>
+	<li>Génération de <strong>document</strong></li>
+	<li>Prise en charge du <strong>multi-linguisme</strong> et de la <strong>localisation</strong></li>
+	<li>Gestion de <strong>media</strong> (images et vidéos)</li>
+	<li>Envoie de <strong>mail</strong> (texte et HTML)</li>
+	<li>Moteur de <strong>template</strong></li>
+	<li><strong>Authentification</strong> et <strong>Autorisations</strong></li>
+	<li><strong>Pagination</strong> et liste triable</li>
+	<li><strong>Contexte</strong> et <strong>session</strong></li>
+	<li>Gestion de tâches (cron)</li>
+</ul>
+L'utilisation de ces modules est nécessairement facultative lors de la réalisation de nos sites, sinon il ne s'agit plus de modules mais de composants.
+
+<a id="toc2" name="toc2"></a>
+<h2>La modernité</h2>
+Lorsque nous avons établi la liste ci-dessus, il nous est arrivé de vouloir y mettre des fonctionnalités essentielles au fonctionnement de nos applications. Nous avons pris la décision de séparer ces composants et de les étudier sous l'axe de la modernité. Nous avons donc établi la liste de composant suivante où il nous parait primordiale de gagner du temps et d'étendre leurs possibilités.
+<ul>
+	<li>Moteur de Ré-écriture d'URL</li>
+	<li>Système de cache</li>
+	<li>Gestion de la sécurité</li>
+	<li>Gestion des erreurs et des logs</li>
+	<li>Système d'accès aux Bases de données</li>
+	<li>Gestion d'évènements</li>
+	<li>Gestion de modules</li>
+</ul>
+<a id="toc3" name="toc3"></a>
+<h2>Conclusion</h2>
+Établir ces deux listes a été relativement simple mais ces deux étapes sont nécessaires pour pouvoir établir une feuille de route pour la conception de Faros. En plus de cela, ces listes nous servirons d'étalonnage pendant toute la période de réalisation du projet.
+
+</div>
