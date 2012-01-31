@@ -1,0 +1,17 @@
+
+<article>
+    <p class="date">{{ post.date |  date: "%d/%m/%Y" }}</p>
+    <h2><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
+    <p class="infosup">
+        {% if post.author %}
+            {{ post.author.name }}
+        {% else %}
+            {{ site.author.name }}
+        {% endif %}
+    </p>
+    <div class="texte">
+        {{  }}
+    </div>
+    <a href="{{ BASE_PATH }}{{ post.url }}">Lire la suite</a>
+</article>
+

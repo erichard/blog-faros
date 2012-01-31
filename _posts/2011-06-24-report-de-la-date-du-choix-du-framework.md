@@ -3,6 +3,9 @@ layout: post
 type: post
 title: Report de la date du choix du framework
 
+author:
+  name: Pouet
+
 toc:
   - { text : Formations, link : "#formation" }
   - { text : Formations, link : "#formation" }
