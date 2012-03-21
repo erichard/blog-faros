@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
-    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    {% if page.description %}
+      <meta name="description" content="{{ page.description }}">
+    {% endif %}
     <meta name="author" content="{{ site.author.name }}">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
@@ -12,8 +14,12 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="{{ ASSET_PATH }}/css/1.4.0/bootstrap.css" rel="stylesheet">
-    <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link href="{{ ASSET_PATH }}/css/bootstrap.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="{{ ASSET_PATH }}/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="{{ ASSET_PATH }}/css/styles.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="//widgets.twimg.com/j/2/widget.js"></script>
 
     <!-- Le fav and touch icons -->
   <!-- Update these with your own images
@@ -26,23 +32,29 @@
 
   <body>
 
-    <div class="topbar">
-      <div class="fill">
-        <div class="container">
-          <a class="brand" href="{{ HOME_PATH }}">{{ site.title }} <span>{{ site.tagline }}</span></a>
+    <header id="header">
 
-          <ul class="nav">
-            {% assign pages_list = site.pages %}
-            {% assign group = 'navigation' %}
-            {% include JB/pages_list %}
-          </ul>
+        <div class="container">
+            <div class="row-fluid ">
+                <div class="span4">
+                    <div id="logo" >
+                        <a class="brand" href="{{ HOME_PATH }}">{{ site.title }} <span>{{ site.tagline }}</span></a>
+                    </div>
+                </div>
+                <div id="subnav">
+                    <ul class="nav nav-pills pull-right">
+                      {% assign pages_list = site.pages %}
+                      {% assign group = 'navigation' %}
+                      {% include JB/pages_list %}
+                    </ul>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
+    </header>
 
     <div class="container">
 
-      <div class="content">
+      <div class="row-fluid">
         {{ content }}
       </div>
 
@@ -51,6 +63,10 @@
       </footer>
 
     </div> <!-- /container -->
+
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+    <script type="text/javascript" src="{{ ASSET_PATH }}/js/bootstrap.min.js"></script>
 
     {% include JB/analytics %}
   </body>

@@ -8,11 +8,13 @@ author:
 
 toc:
   - { text : Formations, link : "#formation" }
-  - { text : Formations, link : "#formation" }
----
+  - { text : Rencontres & Présentations, link : "#rencontres" }
+  - { text : Décisions, link : "#decisions" }
 
-Presque deux mois ont passé depuis le dernier article et plusieurs décisions
-ont été prises. Voici où nous en sommes en ce début d'été 2011.
+summary:
+  Presque deux mois ont passé depuis le dernier article et plusieurs décisions
+  ont été prises. Voici où nous en sommes en ce début d'été 2011.
+---
 
 
 ## Formation  {#formation}
@@ -31,21 +33,38 @@ thèmes suivants :
   - Méthode de tests (TDD et BDD)
   - Gestion de version : SVN et Git
 
-Un programme bien dense qui a emballé le pôle développement. En particulier l'étude des design pattern que nous allons commencez à utiliser plus fréquemment dès maintenant.
+Un programme bien dense qui a emballé le pôle développement. En particulier 
+l'étude des design pattern que nous allons commencez à utiliser plus 
+fréquemment dès maintenant.
 
-<h2>Rencontres &amp; Présentations</h2>
-<h3>Rencontres</h3>
-Nous avons la chance d'avoir une communauté active dans la région Nantaise, nous en avons donc profiter pour rencontrer des personnes plus expertes que nous dans l'utilisation des frameworks modernes.
+## Rencontres &amp; Présentations  {#rencontres}
 
-Je tiens particulièrement à remercier les organisateurs des Apéros PHP et Symfony qui ont lieu sur Nantes dernièrement. Ces rencontres sont un formidable moyen d’échanger de l'information et des retours d'expériences.
+### Rencontres
+Nous avons la chance d'avoir une communauté active dans la région Nantaise, 
+nous en avons donc profiter pour rencontrer des personnes plus expertes que 
+nous dans l'utilisation des frameworks modernes.
 
-Un remerciement plus particulier à Ronan Guilloux pour sa discussion très enrichissante sur les divers frameworks. Nous remercions également Vincent Jousse pour le temps qu'il nous a accordé pour discuter de Symfony 1 et 2.
+Je tiens particulièrement à remercier les organisateurs des Apéros PHP et 
+Symfony qui ont lieu sur Nantes dernièrement. Ces rencontres sont un formidable 
+moyen d’échanger de l'information et des retours d'expériences.
 
-<h3>Présentations</h3>
-Avec toutes les informations que j'ai pu récolter ici et là j'ai pu faire une courte présentation des frameworks Symfony2 et Zend Framework 2. Ces présentations nous ont permis de voir les objectifs, les concepts clés et les philosophies de chacun de framework.
+Un remerciement plus particulier à Ronan Guilloux pour sa discussion très 
+enrichissante sur les divers frameworks. Nous remercions également Vincent 
+Jousse pour le temps qu'il nous a accordé pour discuter de Symfony 1 et 2.
 
-<h2>Décisions</h2>
+### Présentations
+Avec toutes les informations que j'ai pu récolter ici et là j'ai pu faire une 
+courte présentation des frameworks Symfony2 et Zend Framework 2. Ces 
+présentations nous ont permis de voir les objectifs, les concepts clés et les 
+philosophies de chacun de framework.
 
-La période actuelle n'est pas idéale pour prendre des décisions aussi importantes, Symfony 2 est encore très jeune et ZF2 n'est pas aussi visible et prends du retard. Plutôt que de choisir Symfony 2 un peu à défaut de choix (malgré les qualités de ce projet), nous avons pris la décision de repousser notre décision à la fin de l'été.
+## Décisions {#decisions}
 
-D'ici là nous allons essayer de pousser plus en profondeur dans la technique et essayer de réaliser quelques petits projets tests avec ces deux frameworks.
+La période actuelle n'est pas idéale pour prendre des décisions aussi 
+importantes, Symfony 2 est encore très jeune et ZF2 n'est pas aussi visible 
+et prends du retard. Plutôt que de choisir Symfony 2 un peu à défaut de choix 
+(malgré les qualités de ce projet), nous avons pris la décision de repousser 
+notre décision à la fin de l'été.
+
+D'ici là nous allons essayer de pousser plus en profondeur dans la technique 
+et essayer de réaliser quelques petits projets tests avec ces deux frameworks.
