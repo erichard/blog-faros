@@ -16,7 +16,7 @@ author :
   name : Erwan Richard
   email : erwan@lephare.com
   github : le-phare
-  twitter : lephareweb
+  twitter : dhalsimfr
   feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
@@ -58,8 +58,6 @@ JB :
   # Some JB helpers refer to these paths; change theme here if needed.
   #
   archive_path: /archive.html
-  categories_path : /categories.html
-  tags_path : /tags.html
 
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.
@@ -97,6 +95,8 @@ JB :
 
   # Settings for all other include helpers can be defined by creating
   # a hash with key named for the given helper. ex:
+  posts_collate:
+    provider: "custom"
   #
   #   pages_list :
   #     provider : "custom"
