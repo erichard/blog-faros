@@ -1,12 +1,13 @@
 ---
 layout: default
 ---
+{% include JB/setup %}
 
 <div class="span9">
 {% for post in site.posts %}
-
-{% include themes/faros/post_summary.html %}
-
+  {% if post.status == "published" %}
+    {% include themes/faros/post_summary.html %}
+  {% endif %}
 {% endfor %}
 </div>
 

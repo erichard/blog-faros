@@ -19,11 +19,11 @@
 
     <div class="span3">
       {% if page.toc %}
-      <ul id="tocNavBar" class="nav nav-pills nav-stacked" >
+      <ol id="tocNavBar" class="nav nav-pills nav-stacked" >
           {% for toc in page.toc %}
           <li><a href="{{ toc.link }}">{{ toc.text }}</a></li>
           {% endfor %}
-      </ul>
+      </ol>
       {% endif %}
     </div>
   </div>
