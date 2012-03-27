@@ -44,7 +44,7 @@ C'est donc logiquement qu'il nous a fallu nous pencher sur la refonte de notre f
 En 2011, entre les nombreux CMS et les frameworks existant, il nous parait
 inconcevable de faire notre outil dans notre coin.
 
-L'utilisation d'un CMS a été écarté dès le début de nos réflexions. Même si
+L'utilisation d'un CMS a été écartée dès le début de nos réflexions. Même si
 certains de ces projets affiche des fonctionnalités intéressantes, nos
 objectifs de souplesse, réactivité et efficacité nous conduises
 naturellement vers l'eldorado des frameworks PHP.
@@ -70,7 +70,7 @@ Partagé entre l'excitation d'attendre de nouveaux outils utilisant les dernièr
 Comme il est plus facile de parler d'un projet quand il porte un nom, j'ai
 voulu baptisé notre projet. Le nom est venu de l'île de Pharos, où fut érigé
 le phare le plus connu du monde, celui d'Alexandrie. Pour une entreprise
-appelé Le Phare, cela reste dans le ton. Après une petite transformation
+appelée Le Phare, cela reste dans le ton. Après une petite transformation
 typographique voici donc **Faros** notre nouveau framework.
 
 Après une fin d'année 2011 passé sous la pression d'un projet devant sortir (très) rapidement, voila que l'on me libère à nouveau du temps pour me consacrer presque essentiellement au projet Faros. Du coup j'ai essayé de ne pas en perdre et de m'y mettre sérieusement !
@@ -80,11 +80,11 @@ Après une fin d'année 2011 passé sous la pression d'un projet devant sortir (
 
 Après le PHPTour 2011 à Lille, il nous paraissant évident que notre futur outil se baserait sur un framework existant de nouvelle génération. Et c'est [fin janvier 2012](https://twitter.com/dhalsimfr/statuses/163944291276824576) que la décision finale à été prise. Nous utiliserons Symfony2 !
 
-Nous avons également décidé de mener cette refonte en parallèle avec un projet client. Il s'git de la future e-boutique [Ponroy](http://www.ponroy.com/), premier développement nouvelle-génération du Phare !
+Nous avons également décidé de mener cette refonte en parallèle avec un projet client. Il s'agit de la future e-boutique [Ponroy](http://www.ponroy.com/), premier développement nouvelle-génération du Phare !
 
 La suite est assez logique, nous avons commencé par suivre une formation pour être rapidement efficace avec le framework (merci [KnpLabs](http://knplabs.fr)).
 
-La conception a démarré dans la foulée avec un premier jet de spécifications générales. Un groupe de travail interne s'est formé pour établir les spécifications de nos interfaces d'administrations. Et les premiers développement ont démarré pour se familiariser avec ce nouveau framework.
+La conception a démarré dans la foulée avec un premier jet de spécifications générales. Un groupe de travail interne s'est formé pour établir les spécifications de nos interfaces d'administrations. Et les premiers développements ont démarré pour se familiariser avec ce nouveau framework.
 
 Le projet Faros va donc devenir un bundle symfony, le LephareFarosBundle. Quelle aventure !
 
