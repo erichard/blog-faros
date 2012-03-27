@@ -7,12 +7,12 @@ status : "draft"
 
 toc:
   - { text : Soyons efficace !, link : "#efficace" }
-  - { text : Vers l'infini et au-dela !, link : "#infini" }
+  - { text : Vers l'infini et au-delà !, link : "#infini" }
   - { text : La naissance de Faros, link : "#faros" }
   - { text : Mise en place du projet, link : "#mise_en_place" }
 
 summary:
-    Après bientot neuf mois d'absence nous voici de retour. Beaucoup de choses se sont passés ces derniers mois : des décisions ont été prises et des actions ont été menées.
+    Après bientôt neuf mois d'absence nous voici de retour. Beaucoup de choses se sont passés ces derniers mois : des décisions ont été prises et des actions ont été menées.
 
 ---
 
@@ -29,7 +29,7 @@ vers la conception et le développement d'application métier de type
 Extranet ou Intranet.
 
 Le framework applicatif maison, développé en interne à une époque où il n'en
-existait pas, est suffisament efficace pour avoir permit au Phare de se
+existait pas, est suffisamment efficace pour avoir permit au Phare de se
 distinguer par sa compétence, sa réactivité et son adaptabilité. Son
 efficacité tient essentiellement à la pratique d'un développement strict et
 rigoureux et à l'application de recettes éprouvées prêtes à l'emploi.
@@ -39,12 +39,12 @@ Le manque de documentation et de convention des pratiques de programmation/conce
 C'est donc logiquement qu'il nous a fallu nous pencher sur la refonte de notre framework.
 
 
-## Vers l'infini et au-dela ! {#infini}
+## Vers l'infini et au-delà ! {#infini}
 
 En 2011, entre les nombreux CMS et les frameworks existant, il nous parait
 inconcevable de faire notre outil dans notre coin.
 
-L'utilisation d'un CMS a été écarté dès le début de nos reflexions. Même si
+L'utilisation d'un CMS a été écarté dès le début de nos réflexions. Même si
 certains de ces projets affiche des fonctionnalités intéressantes, nos
 objectifs de souplesse, réactivité et efficacité nous conduises
 naturellement vers l'eldorado des frameworks PHP.
@@ -58,7 +58,7 @@ mais nécessitant de casser la compatibilité avec les versions précédentes.
 
 Quelques mois après l'arrivé de cette version majeure plusieurs projets PHP
 ont annoncé leurs volontés de concevoir une version _NextGen_ de leurs
-framework. Le projet Symfony a été un des premiers frameworks profesionnel à
+framework. Le projet Symfony a été un des premiers frameworks professionnel à
 annoncé Symfony 2.0 vers le début de l'année 2010. Dans la foulé, Zend à
 également annoncé le démarrage de son nouvel outil Zend Framework 2.
 
@@ -90,4 +90,4 @@ Le projet Faros va donc devenir un bundle symfony, le LephareFarosBundle. Quelle
 
 ## A venir !
 
-La publication sur ce blog devrait reprendre un rythme plus soutenu. J'ai déjà plusieurs idées en tête. En vrac nous parlerons : d'interface d'admin, d'organisation de travail création/intégration/developpement, d'environnement de développement, de github, de ..., <small>de ...</small>
+La publication sur ce blog devrait reprendre un rythme plus soutenu. J'ai déjà plusieurs idées en tête. En vrac nous parlerons : d'interface d'admin, d'organisation de travail création/intégration/développement, d'environnement de développement, de github, de ..., <small>de ...</small>
