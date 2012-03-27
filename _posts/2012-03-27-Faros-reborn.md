@@ -12,7 +12,7 @@ toc:
   - { text : Mise en place du projet, link : "#mise_en_place" }
 
 summary:
-    Après bientôt neuf mois d'absence nous voici de retour. Beaucoup de choses se sont passées ces derniers mois : des décisions ont été prises et des actions ont été menées.
+    "Après bientôt neuf mois d'absence nous voici de retour. Beaucoup de choses se sont passées ces derniers mois : des décisions ont été prises et des actions ont été menées."
 
 ---
 
