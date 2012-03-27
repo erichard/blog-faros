@@ -12,13 +12,13 @@ toc:
   - { text : Mise en place du projet, link : "#mise_en_place" }
 
 summary:
-    Après bientôt neuf mois d'absence nous voici de retour. Beaucoup de choses se sont passés ces derniers mois : des décisions ont été prises et des actions ont été menées.
+    Après bientôt neuf mois d'absence nous voici de retour. Beaucoup de choses se sont passées ces derniers mois : des décisions ont été prises et des actions ont été menées.
 
 ---
 
 Avant d'entrée dans le vif du sujet, profitons de ce nouveau départ pour faire un court historique du projet.
 
-## Soyons efficace ! {#efficace}
+## Soyons efficaces ! {#efficace}
 
 Le phare existe depuis plus de 10 ans et en une décennie la nature de nos
 réalisations a changé. Les projets que nous réalisons sont de plus en plus
