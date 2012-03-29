@@ -11,8 +11,8 @@ toc:
   - { text : Décisions, link : "#decisions" }
 
 summary:
-  Presque deux mois ont passé depuis le dernier article et plusieurs décisions
-  ont été prises. Voici où nous en sommes en ce début d'été 2011.
+  Presque deux mois ont passé depuis le dernier article et plusieurs
+  décisions ont été prises. Voici où nous en sommes en ce début d'été 2011.
 ---
 
 
@@ -22,19 +22,20 @@ Nous avons passé environ 8h en formation/discussion autour des concepts
 importants utilisés dans les framework modernes. Nous avons donc abordés les
 thèmes suivants :
 
-  - Généralités : Design Patterns
-  - SPL : présentation et étude des design pattern implémentés
-    (Iterator, Observer))
-  - Le pattern MVC
-  - La fonction ORM
-  - Les nouveautés apportés par PHP 5.3
-  - Gestion des erreurs et exceptions
-  - Méthode de tests (TDD et BDD)
-  - Gestion de version : SVN et Git
+- Généralités : Design Patterns
+- SPL : présentation et étude des design pattern implémentés
+  (Iterator, Observer))
+- Le pattern MVC
+- La fonction ORM
+- Les nouveautés apportés par PHP 5.3
+- Gestion des erreurs et exceptions
+- Méthode de tests (TDD et BDD)
+- Gestion de version : SVN et Git
 
 Un programme bien dense qui a emballé le pôle développement. En particulier
 l'étude des design pattern que nous allons commencez à utiliser plus
 fréquemment dès maintenant.
+
 
 ## Rencontres &amp; Présentations  {#rencontres}
 
@@ -52,10 +53,12 @@ enrichissante sur les divers frameworks. Nous remercions également Vincent
 Jousse pour le temps qu'il nous a accordé pour discuter de Symfony 1 et 2.
 
 ### Présentations
+
 Avec toutes les informations que j'ai pu récolter ici et là j'ai pu faire une
 courte présentation des frameworks Symfony2 et Zend Framework 2. Ces
 présentations nous ont permis de voir les objectifs, les concepts clés et les
 philosophies de chacun de framework.
+
 
 ## Décisions {#decisions}
 
