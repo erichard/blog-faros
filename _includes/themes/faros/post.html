@@ -10,7 +10,7 @@
     <article class="span9 article-inner">
       {% if page.summary %}
       <div class="headline">
-      {{ page.summary }}
+      {{ page.summary | markdownify }}
       </div>
       {% endif %}
 
@@ -24,7 +24,7 @@
     <div class="span3">
       <div class="sidebar">
         {% if page.toc %}
-        <ol id="tocNavBar" class="nav nav-pills nav-stacked" >
+        <ol id="tocNavBar" class="nav nav-tabs nav-stacked" >
             {% for toc in page.toc %}
             <li><a href="{{ toc.link }}">{{ toc.text }}</a></li>
             {% endfor %}
@@ -34,13 +34,14 @@
         <div class="paginator">
         <nav class="pagination">
           <ul>
-          {% if page.previous %}
+          {% if page.previous and page.previous.status == "published"%}
+
             <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr;</a></li>
           {% else %}
-            <li class="prev disabled"><a>&larr; Previous</a></li>
+            <li class="prev disabled"><a>&larr;</a></li>
           {% endif %}
             <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
-          {% if page.next %}
+          {% if page.next and page.next.status == "published" %}
             <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">&rarr;</a></li>
           {% else %}
             <li class="next disabled"><a>&rarr;</a>

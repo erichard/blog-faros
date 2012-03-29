@@ -4,18 +4,15 @@ layout: default
 {% include JB/setup %}
 
 <div class="span9">
+{% assign cpt = 0 %}
 {% for post in site.posts %}
   {% if post.status == "published" %}
     {% include themes/faros/post_summary.html %}
+    {% capture cpt %}{{ cpt | plus:'1' }}{% endcapture %}
   {% endif %}
 {% endfor %}
 </div>
 
 <aside role="complementary" class="span3">
-    <div class="row-fluid">
-        <div class="well">
-            <h3>Suivez nous sur twitter</h3>
-            {% include themes/faros/twitter.html %}
-        </div>
-    </div>
+  {% include themes/faros/twitter.html %}
 </aside>

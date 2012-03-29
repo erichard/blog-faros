@@ -1,21 +1,17 @@
-<article class="well article">
+{% if cpt == 0 %}
+<article class="well post first">
+{% else %}
+<article class="well post ">
+{% endif %}
     <p class="date">{{ post.date |  date: "%d/%m/%Y" }}</p>
     <div class="row-fluid">
         <h2 class="span10"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
-        <aside class="span2 infosup">
-            {% if post.author %}
-                {{ post.author.name }}
-            {% else %}
-                {{ site.author.name }}
-            {% endif %}
-        </aside>
     </div>
 
     {% if post.summary %}
     <div class="texte">
-        {{ post.summary }}
+        {{ post.summary | markdownify }}
     </div>
     {% endif %}
 
-    <a href="{{ BASE_PATH }}{{ post.url }}">Lire la suite</a>
 </article>
