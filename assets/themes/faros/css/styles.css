@@ -28,8 +28,8 @@ body {
 .post {
     position: relative;
 }
-
-.post h2 { padding-left : 90px; font-weight: 400; }
+.post h1, .post-list h2 { padding-left : 90px;}
+.post h2 { font-weight: 400; }
 .post h2 a {color: #f58424; text-decoration: none;}
 
 .post .texte {
