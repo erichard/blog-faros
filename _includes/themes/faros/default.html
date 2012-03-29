@@ -23,11 +23,11 @@
 
     <!-- Le styles -->
     <link href="/{{ ASSET_PATH }}/css/bootstrap.css" rel="stylesheet" type="text/css" media="screen" />
-    <link href="/{{ ASSET_PATH }}/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" media="screen" />
     <link href="/{{ ASSET_PATH }}/css/styles.css" rel="stylesheet" type="text/css" media="screen" />
     <link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
 
     <script type="text/javascript" src="//widgets.twimg.com/j/2/widget.js"></script>
+
 
     <!-- Le fav and touch icons -->
   <!-- Update these with your own images
@@ -38,7 +38,7 @@
   -->
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".sidebar" data-offset="150">
 
     <header id="header">
 
@@ -62,7 +62,7 @@
 
     <div class="container">
 
-      <div class="row-fluid">
+      <div class="row">
         {{ content }}
       </div>
 
@@ -75,6 +75,44 @@
 
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
     <script type="text/javascript" src="/{{ ASSET_PATH }}/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+
+      (function(){
+
+      // fix sub nav on scroll
+      var $win = $(window);
+
+      if ($('.sidebar').size() > 0) {
+        $nav = $('.sidebar'),
+        navTop = $('.sidebar').length && $('.sidebar').offset().top - 40,
+        isFixed = 0;
+        processScroll();
+
+        $win.on('scroll', processScroll);
+      }
+
+      function processScroll() {
+
+        var i, scrollTop = $win.scrollTop();
+        if (scrollTop >= navTop && !isFixed) {
+          isFixed = 1;
+          left = $nav.offset().left;
+          width = $nav.outerWidth();
+          console.log(left);
+          $nav.addClass('sidebar-fixed');
+          $nav.css({
+            'left' : left,
+            'width' : width
+          });
+        } else if (scrollTop <= navTop && isFixed) {
+          isFixed = 0;
+          $nav.removeClass('sidebar-fixed');
+        }
+      }
+
+      })(jQuery);
+    </script>
+
 
     {% include JB/analytics %}
   </body>

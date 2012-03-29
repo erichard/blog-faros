@@ -1,17 +1,21 @@
 <article class="well article">
     <p class="date">{{ post.date |  date: "%d/%m/%Y" }}</p>
-    <h2><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
-    <aside class="infosup">
-        {% if post.author %}
-            {{ post.author.name }}
-        {% else %}
-            {{ site.author.name }}
-        {% endif %}
-    </aside>
+    <div class="row-fluid">
+        <h2 class="span10"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
+        <aside class="span2 infosup">
+            {% if post.author %}
+                {{ post.author.name }}
+            {% else %}
+                {{ site.author.name }}
+            {% endif %}
+        </aside>
+    </div>
+
     {% if post.summary %}
     <div class="texte">
         {{ post.summary }}
     </div>
     {% endif %}
+
     <a href="{{ BASE_PATH }}{{ post.url }}">Lire la suite</a>
 </article>

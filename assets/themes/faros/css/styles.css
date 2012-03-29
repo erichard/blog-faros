@@ -40,7 +40,7 @@ body {
     margin-bottom: 20px;}
 .article h2 {font-weight: 400;}
 .article h2 a {color: #f58424; text-decoration: none;}
-.infosup {color: #807c7c; margin-bottom: 15px;}
+.infosup {color: #807c7c;}
 
 #fils {
     width: 230px; height: 38px;
@@ -137,4 +137,19 @@ h2 {font-size: 22px; line-height: 22px; color: #333; margin-bottom: 5px;}
   -webkit-border-radius: 0;
      -moz-border-radius: 0;
           border-radius: 0;
+}
+
+.article-inner h2 {
+  margin: 25px 0 10px 0;
+}
+
+/* Fixed navcontact on scroll, but only for 980px and up (sorry IE!) */
+@media (min-width: 980px) {
+  .sidebar-fixed {
+    position: fixed;
+    top: 30px;
+    right : 0px;
+    z-index: 1020; /* 10 less than .navbar-fixed to prevent any overlap */
+
+  }
 }

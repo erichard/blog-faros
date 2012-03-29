@@ -1,12 +1,13 @@
-<article class="well article">
+<article class="article well">
   <header >
     <h1>{{ page.title }}</h1>
   </header>
 
   <aside class="date">{{ page.date | date: "%d/%m/%Y" }}</aside>
 
-  <div class="row-fluid">
-    <div class="span9" data-spy="scroll" data-target="#tocNavBar" data-offset="0">
+  <div class="row-fluid" >
+
+    <div class="span9 article-inner">
         {% if page.summary %}
         <hr>
         <div class="headline"></div>
@@ -18,13 +19,15 @@
     </div>
 
     <div class="span3">
-      {% if page.toc %}
-      <ol id="tocNavBar" class="nav nav-pills nav-stacked" >
-          {% for toc in page.toc %}
-          <li><a href="{{ toc.link }}">{{ toc.text }}</a></li>
-          {% endfor %}
-      </ol>
-      {% endif %}
+      <div class="sidebar">
+        {% if page.toc %}
+        <ol id="tocNavBar" class="nav nav-pills nav-stacked" >
+            {% for toc in page.toc %}
+            <li><a href="{{ toc.link }}">{{ toc.text }}</a></li>
+            {% endfor %}
+        </ol>
+        {% endif %}
+      </div>
     </div>
   </div>
 
