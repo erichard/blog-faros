@@ -94,11 +94,11 @@
       function processScroll() {
 
         var i, scrollTop = $win.scrollTop();
+
         if (scrollTop >= navTop && !isFixed) {
           isFixed = 1;
           left = $nav.offset().left;
           width = $nav.outerWidth();
-          console.log(left);
           $nav.addClass('sidebar-fixed');
           $nav.css({
             'left' : left,

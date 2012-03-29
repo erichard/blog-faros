@@ -60,6 +60,11 @@ body {
 
 }
 
+.headline {
+  margin : 5px;
+  font-style: italic;
+}
+
 #sidebar {padding: 20px;}
 #sidebar h3 {font-size: 16px; color: #f58424; font-weight: 400; margin-bottom: 10px;}
 #sidebar ul {list-style: none; margin: 0;}
@@ -152,4 +157,8 @@ h2 {font-size: 22px; line-height: 22px; color: #333; margin-bottom: 5px;}
     z-index: 1020; /* 10 less than .navbar-fixed to prevent any overlap */
 
   }
+}
+
+.paginator {
+  text-align : center;
 }

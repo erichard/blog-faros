@@ -1,4 +1,4 @@
-<article class="article well">
+<section class="article well">
   <header >
     <h1>{{ page.title }}</h1>
   </header>
@@ -7,16 +7,19 @@
 
   <div class="row-fluid" >
 
-    <div class="span9 article-inner">
-        {% if page.summary %}
-        <hr>
-        <div class="headline"></div>
-        {{ page.summary }}
-        {% endif %}
-      <hr>
+    <article class="span9 article-inner">
+      {% if page.summary %}
+      <div class="headline">
+      {{ page.summary }}
+      </div>
+      {% endif %}
+
       {{ content }}
-      <hr>
-    </div>
+
+      <aside>
+      {% include JB/comments %}
+      </aside>
+    </article>
 
     <div class="span3">
       <div class="sidebar">
@@ -27,24 +30,29 @@
             {% endfor %}
         </ol>
         {% endif %}
+
+        <div class="paginator">
+        <nav class="pagination">
+          <ul>
+          {% if page.previous %}
+            <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr;</a></li>
+          {% else %}
+            <li class="prev disabled"><a>&larr; Previous</a></li>
+          {% endif %}
+            <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
+          {% if page.next %}
+            <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">&rarr;</a></li>
+          {% else %}
+            <li class="next disabled"><a>&rarr;</a>
+          {% endif %}
+          </ul>
+        </nav>
+        </div>
       </div>
     </div>
+
+
   </div>
 
-  <nav class="pagination">
-    <ul>
-    {% if page.previous %}
-      <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
-    {% else %}
-      <li class="prev disabled"><a>&larr; Previous</a></li>
-    {% endif %}
-      <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
-    {% if page.next %}
-      <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
-    {% else %}
-      <li class="next disabled"><a>Next &rarr;</a>
-    {% endif %}
-    </ul>
-  </nav>
+</section>
 
-</article>
