@@ -94,11 +94,11 @@ pas en perdre et de m'y mettre sérieusement !
 Après le PHPTour 2011 à Lille, il nous paraissant évident que notre futur
 outil se baserait sur un framework existant de nouvelle génération. Et c'est
 [fin janvier 2012](https://twitter.com/dhalsimfr/statuses/163944291276824576)
- que la décision finale à été prise. Nous utiliserons Symfony2 !
+que la décision finale à été prise. Nous utiliserons **Symfony2** !
 
 Nous avons également décidé de mener cette refonte en parallèle avec un
-projet client. Il s'agit de la future e-boutique [Ponroy](http://www.ponroy.
-com/), premier développement nouvelle-génération du Phare !
+projet client. Il s'agit d'une boutique en ligne dont la livraison est
+prévue en septembre 2012.
 
 La suite est assez logique, nous avons commencé par suivre une formation
 pour être rapidement efficace avec le framework (merci [KnpLabs](
