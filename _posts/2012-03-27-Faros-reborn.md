@@ -3,7 +3,7 @@ layout: post
 type: post
 title: "Faros reborn !"
 
-status : "draft"
+status : "published"
 
 toc:
   - { text : Soyons efficace !, link : "#efficace" }
@@ -17,12 +17,13 @@ summary:
 
 ---
 
-Avant d'entrée dans le vif du sujet, profitons de ce nouveau départ pour faire un court historique du projet.
+Avant d'entrer dans le vif du sujet, profitons de ce nouveau départ pour
+faire un court historique du projet.
 
 
 ## Soyons efficaces ! {#efficace}
 
-Le phare existe depuis plus de 10 ans et en une décennie la nature de nos
+Le Phare existe depuis plus de 10 ans et en une décennie la nature de nos
 réalisations a changé. Les projets que nous réalisons sont de plus en plus
 complexes, de plus en plus spécifiques, de plus en plus sur-mesure.
 
@@ -63,7 +64,7 @@ symfony et bien d'autre il y avait de quoi choisir. Puis est arrivé la
 version 5.3 de PHP apportant plusieurs fonctionnalités très intéressantes
 mais nécessitant de casser la compatibilité avec les versions précédentes.
 
-Quelques mois après l'arrivé de cette version majeure plusieurs projets PHP
+Quelques mois après l'arrivée de cette version majeure plusieurs projets PHP
 ont annoncé leurs volontés de concevoir une version _NextGen_ de leurs
 framework. Le projet Symfony a été un des premiers frameworks professionnel à
 annoncé Symfony 2.0 vers le début de l'année 2010. Dans la foulé, Zend à
@@ -83,7 +84,7 @@ le phare le plus connu du monde, celui d'Alexandrie. Pour une entreprise
 appelée Le Phare, cela reste dans le ton. Après une petite transformation
 typographique voici donc **Faros** notre nouveau framework.
 
-Après une fin d'année 2011 passé sous la pression d'un projet devant sortir
+Après une fin d'année 2011 passée sous la pression d'un projet devant sortir
 (très) rapidement, voila que l'on me libère à nouveau du temps pour me
 consacrer presque essentiellement au projet Faros. Du coup j'ai essayé de ne
 pas en perdre et de m'y mettre sérieusement !
@@ -113,7 +114,7 @@ Le projet Faros va donc devenir un bundle symfony, le LephareFarosBundle.
 Quelle aventure !
 
 
-## A venir !
+## À venir !
 
 La publication sur ce blog devrait reprendre un rythme plus soutenu. J'ai
 déjà plusieurs idées en tête. En vrac nous parlerons : d'interface d'admin,
