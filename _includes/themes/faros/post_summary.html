@@ -1,11 +1,11 @@
 {% if cpt == 0 %}
-<article class="well post first">
+<article class="post first">
 {% else %}
-<article class="well post ">
+<article class="post well">
 {% endif %}
     <p class="date">{{ post.date |  date: "%d/%m/%Y" }}</p>
     <div class="row-fluid">
-        <h2 class="span10"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
+        <h2><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
     </div>
 
     {% if post.summary %}

@@ -17,6 +17,7 @@ body {
     line-height: 30px; text-decoration: none; padding: 3px 0 0 100px;
     background: transparent url(../img/sigle.png) no-repeat;}
 #logo a {color : #333;}
+#logo a:hover {text-decoration: none;}
 #logo span {display: block; color: #807c7c; font-size: 14px; text-transform: uppercase; margin-left: 3px;}
 
 .date {
@@ -25,16 +26,14 @@ body {
     background: transparent url(../img/bgDate.png) no-repeat;
     position: absolute; left: -10px; top: 20px;}
 
-.post {
-    position: relative;
-}
-.post h1, .post-list h2 { padding-left : 90px;}
+section .date {top: 30px;}
+
+.post {position: relative;}
+.post h1, .post-list h2 { padding-left : 75px;}
 .post h2 { font-weight: 400; }
 .post h2 a {color: #f58424; text-decoration: none;}
+.post .texte {margin : 10px 0;}
 
-.post .texte {
-  margin : 10px 0;
-}
 .infosup {color: #807c7c;}
 
 #fils {
@@ -48,19 +47,26 @@ body {
     -moz-box-shadow: 0 2px 0 #E5E2E1;
     box-shadow: 0 2px 0 #E5E2E1;
     border-radius: 10px;
+    -moz-border-radius: 10px; border: 1px #BFBBBA solid !important;}
+
+section.well {padding: 30px;}
+
+.first {
+    background-color: #fff;
+    border: 1px #F38324 solid;
+    -webkit-box-shadow: 0 2px 0 #E5E2E1;
+    -moz-box-shadow: 0 2px 0 #E5E2E1;
+    box-shadow: 0 2px 0 #E5E2E1;
+    border-radius: 10px;
     -moz-border-radius: 10px;
-}
+    margin-bottom: 20px;
+    min-height: 20px;
+    padding: 19px;}
+.first .date {background: transparent url(../img/bgDateFirst.png) no-repeat;}
 
-.page-header {
+.page-header {}
 
-}
-
-.headline {
-  font-style: italic;
-}
-.headline p{
-  margin : 10px;
-}
+.headline {font-style: italic; padding: 10px 40px 0 75px;}
 
 #sidebar {padding: 20px;}
 #sidebar h3 {font-size: 16px; color: #f58424; font-weight: 400; margin-bottom: 10px;}
