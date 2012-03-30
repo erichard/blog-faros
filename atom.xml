@@ -18,7 +18,7 @@ title : Flux RSS
  {% for post in site.posts %}
  {% if post.status == "published" %}
  <entry>
-   <title>{{ post.title }}</title>
+   <title>{{ post.title  | xml_escape }}</title>
    <link href="{{ site.production_url }}{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>h{{ site.production_url }}{{ post.id }}</id>
