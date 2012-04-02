@@ -92,7 +92,7 @@ pas en perdre et de m'y mettre sérieusement !
 
 ## Mise en place du projet {#mise_en_place}
 
-Après le PHPTour 2011 à Lille, il nous paraissant évident que notre futur
+Après le PHPTour 2011 à Lille, il nous paraissait évident que notre futur
 outil se baserait sur un framework existant de nouvelle génération. Et c'est
 [fin janvier 2012](https://twitter.com/dhalsimfr/statuses/163944291276824576)
 que la décision finale à été prise. Nous utiliserons **Symfony2** !
