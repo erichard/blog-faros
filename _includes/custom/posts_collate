@@ -9,20 +9,24 @@
     {% capture next_month %}{{ post.previous.date | date: "%m/%Y" }}{% endcapture %}
 
     {% if forloop.first %}
-      <h2>{{this_year}}</h2>
-      <ul>
+      <div class="row">
+        <h2>{{this_year}}</h2>
+        <ul>
     {% endif %}
 
-    <article class="well article span9">
-      <p class="date">{{ post.date |  date: "%d/%m/%Y" }}</p>
-      <h2><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
-    </article>
+    <li class="post">
+      <span>{{ post.date |  date: "%d/%m/%Y" }}</span>
+      <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+    </li>
 
     {% if forloop.last %}
       </ul>
+      </div>
     {% else %}
       {% if this_year != next_year %}
         </ul>
+        </div>
+        <div class="row">
         <h2>{{next_year}}</h2>
         <ul>
       {% endif %}
